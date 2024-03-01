@@ -1,0 +1,45 @@
+*{
+	font-family: kode mono;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+      color: cyan !important; /* Change color as desired */
+
+    }
+
+.navbar a:hover {
+      color: cyan !important; /* Change color as desired */
+
+    }
+
+h1:hover {
+	font-weight: bold ;
+}
+
+.card:hover {
+	transform: scale(1.05); /* Increase size on hover */
+  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+#FrontEnd:hover {
+	transform: scale(1.05); /* Increase size on hover */
+  	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+#MERN:hover {
+	transform: scale(1.05); /* Increase size on hover */
+  	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+#OtherTools:hover {
+	transform: scale(1.05); /* Increase size on hover */
+  	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.form-control:hover {
+	background-color: lightblue;
+}
+
+.glow-text {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    }
